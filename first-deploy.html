@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My first Azure Static Web App</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="../assets/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="../assets/avatar.png" alt="Avatar" class="avatar">
+      <div>
+        <h1 class="site-title">Madhura — Personal Blog</h1>
+        <p class="site-subtitle">Data • Dashboards • Product • PGDM</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="../">Home</a>
+      <button id="themeToggle" aria-label="Toggle dark/light theme">🌓</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article class="card">
+      <h1>My first Azure Static Web App</h1>
+      <p class="meta">Published <time datetime="2025-10-30">Oct 30, 2025</time> • 3 min read</p>
+      <ol>
+        <li>Push static site to GitHub (`main`).</li>
+        <li>Azure Portal → Static Web Apps → Create.</li>
+        <li>Connect GitHub repo + `main` branch.</li>
+        <li>Build details: App location `/`, Output `/`, API empty.</li>
+        <li>Wait for GitHub Action → copy the live URL.</li>
+      </ol>
+      <p>Tip: If the site is blank after deploy, ensure your <code>index.html</code> is at repo root.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 • Madhura</p>
+  </footer>
+  <script defer src="../script.js"></script>
+</body>
+</html>

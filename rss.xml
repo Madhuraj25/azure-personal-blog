@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Madhura — Personal Blog</title>
+    <link>https://YOUR-SITE.azurestaticapps.net/</link>
+    <description>Data, dashboards, and study notes.</description>
+    <lastBuildDate>2025-10-30T12:00:00</lastBuildDate>
+    <item>
+      <title>My first Azure Static Web App</title>
+      <link>https://YOUR-SITE.azurestaticapps.net/posts/first-deploy.html</link>
+      <pubDate>2025-10-30T12:00:00</pubDate>
+      <description>How I deployed this blog with GitHub + Azure.</description>
+    </item>
+  </channel>
+</rss>

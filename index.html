@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Madhura — Personal Blog</title>
+  <meta name="description" content="PGDM student & analytics enthusiast. Writing about data, dashboards, and product ideas.">
+  <meta property="og:title" content="Madhura — Personal Blog">
+  <meta property="og:description" content="Notes on data, dashboards, exams, and side projects.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b0f19">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/avatar.png" alt="Avatar" class="avatar">
+      <div>
+        <h1 class="site-title">Madhura — Personal Blog</h1>
+        <p class="site-subtitle">Data • Dashboards • Product • PGDM</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-label="Toggle dark/light theme">🌓</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="posts">
+      <article class="card">
+        <a class="card-link" href="posts/first-deploy.html">
+          <h2>My first Azure Static Web App</h2>
+        </a>
+        <p class="meta">Published <time datetime="2025-10-30">Oct 30, 2025</time> • 3 min read</p>
+        <p>Simple steps I used to deploy this blog using GitHub + Azure Static Web Apps (Free). Includes tips on App/Output location and common pitfalls.</p>
+        <a class="read" href="posts/first-deploy.html">Read →</a>
+      </article>
+
+      <article class="card">
+        <a class="card-link" href="posts/power-bi-study-plan.html">
+          <h2>My 7‑day Power BI study plan</h2>
+        </a>
+        <p class="meta">Published <time datetime="2025-10-29">Oct 29, 2025</time> • 4 min read</p>
+        <p>A realistic, recruiter‑friendly plan: data modeling, clean visuals, and the exact KPIs to implement before interviews.</p>
+        <a class="read" href="posts/power-bi-study-plan.html">Read →</a>
+      </article>
+
+      <article class="card">
+        <a class="card-link" href="posts/exam-notes-checklist.html">
+          <h2>Exam notes checklist (PGDM)</h2>
+        </a>
+        <p class="meta">Published <time datetime="2025-10-28">Oct 28, 2025</time> • 2 min read</p>
+        <p>My repeatable template for writing exam‑ready notes quickly—headings, diagrams, examples, and learning takeaways.</p>
+        <a class="read" href="posts/exam-notes-checklist.html">Read →</a>
+      </article>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About</h2>
+      <p>I’m a PGDM (Data Science & Business Analytics) student. I enjoy building dashboards, writing study notes, and turning ideas into small products.</p>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a> · GitHub: <a href="https://github.com/your-username" target="_blank" rel="noopener">your-username</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 • Madhura</p>
+    <p><a href="rss.xml">RSS</a> · <a href="sitemap.xml">Sitemap</a></p>
+  </footer>
+</body>
+</html>
